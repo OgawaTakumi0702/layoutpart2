@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.switch{
+	display: flex;
+	justify-content: center;
+}
+.button{
+	padding: 0 15px;
+	border-radius: 10px;
+	margin-left: 30px;
+	line-height: 50px;
+	cursor: pointer;
+}
+.button:first-child{
+	margin-left: 0px;
+}
+.red{
+	background-color: #fd0f0fd9;
+	color: #fff;
+}
+.blue{
+	background-color: #170ffdd9;
+	color: #fff;
+}
+.green{
+	background-color: #0ffd0fd9;
+	color: #000;
+}
+
+.red_s{
+	background-color: #fd0f0fd9;
+	color: #fff;
+	box-shadow: 0 7px rgba(63, 5 ,  5, 0.851)
+}
+.blue_s{
+	background-color: #170ffdd9;
+	color: #fff;
+	box-shadow: 0 7px rgba(5, 13, 63, 0.851)
+}
+.green_s{
+	background-color: #0ffd0fd9;
+	color: #000;
+	box-shadow: 0 7px rgba(5, 63, 5, 0.851)
+}
+
+.red_a{
+	background-color: #fd0f0fd9;
+	color: #fff;
+	box-shadow: 0 7px rgba(63, 5 ,  5, 0.851)
+}
+.blue_a{
+	background-color: #170ffdd9;
+	color: #fff;
+	box-shadow: 0 7px rgba(5, 13, 63, 0.851)
+}
+.green_a{
+	background-color: #0ffd0fd9;
+	color: #000;
+	box-shadow: 0 7px rgba(5, 63, 5, 0.851)
+}
+
+.red_a:active,.blue_a:active,.green_a:active{
+	transform: translateY(7px);
+	box-shadow: 0 0;
+}
+
+.double_line{
+	color: #67c5ff;
+	border: double 4px #67c5ff;
+	transition: 0.5s;
+}
+.double_line:hover{
+	background-color: #fffbef;
+}
+.dot_line{
+	color: #67c5ff;
+	border: dotted 4px #75caff;
+	transition: 0.5s;
+}
+.dot_line:hover{
+	border: dashed 4px #75caff;
+}
+.bluedot_line{
+	color: #0079a5f8;
+	background-color: #d0edfff8;
+	border: dashed 4px #67c5ff;
+}
+.bluedot_line:hover{
+	color: #67c5ff;
+	background-color: #ffffff;
+}
