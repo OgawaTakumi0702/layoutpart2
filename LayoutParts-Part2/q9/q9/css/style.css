@@ -129,12 +129,9 @@
 	margin-top: 20px;
 }
 .staff_image{
-	background-image: url(https://picsum.photos/id/1005/200/300);
-	background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
+	background: url(https://picsum.photos/id/1005/200/300) no-repeat center/cover;
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	margin: auto;
+	margin: 0 auto;
 }
