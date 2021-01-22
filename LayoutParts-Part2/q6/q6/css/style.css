@@ -18,6 +18,7 @@
 }
 .logo a{
 	color: #f2ff7b;
+	text-decoration: none;
 }
 .nav{
 	list-style: none;

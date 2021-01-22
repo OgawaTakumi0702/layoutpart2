@@ -17,8 +17,7 @@
 	}
 }
 .gbox1{
-	animation-name: fadeIn;
-	animation-duration: 4s;
+	animation: fadeIn 4s ease 0s 1 normal;
 }
 
 @keyframes fadeOut{
@@ -30,9 +29,7 @@
 	}
 }
 .gbox2{
-	animation-name: fadeOut;
-	animation-duration: 4s;
-	animation-delay: 4s;
+	animation-name: fadeOut 4s ease 0s 1 normal
 }
 
 @keyframes rotate{
@@ -44,10 +41,7 @@
 	}
 }
 .gbox3{
-	animation-name: rotate;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+	animation: rotate 4s infinite linear;
 }
 
 .q9blue{
@@ -100,10 +94,7 @@
 	border-radius: 50%;
 	border: solid 10px #ecf1f2;
 	border-bottom: solid 10px #14ff4bcd;
-	animation-name: rotate;
-	animation-duration: 1.1s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+	animation: rotate 1.1s infinite linear;
 }
 
 .check--sample ul{
